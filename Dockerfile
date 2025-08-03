@@ -3,11 +3,6 @@ FROM python:3.13-slim
 LABEL author="tlong-ds"
 LABEL courses="mlops-fundamental"
 
-COPY . .
-WORKDIR /
+# WRITE HERE
 
-RUN pip install --no-cache-dir --upgrade -r requirements.txt
-
-EXPOSE 7860
-
-CMD ["python", "main.py"]
+# END HERE (GET STUCK? READ Dockerfile_answer)
